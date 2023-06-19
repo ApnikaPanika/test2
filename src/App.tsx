@@ -6,7 +6,7 @@ import printfulPhoto from '../public/Printful.png';
 import NewPrintful from './Components/NewPrintful/NewPrintful';
 
 const App = () => {
-  const [status, setStatus] = useState<string>('checkout');
+  const [status, setStatus] = useState<string>('old');
 
   const [ekoItemQuantity, setEkoItemQuantity] = useState(0);
   const [standardItemQuantity, setStandardItemQuantity] = useState<any>(0);
